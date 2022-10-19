@@ -1,34 +1,26 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-int main()
-{
-    int arr[6] = {1, 3, 3, 3, 1, 6}, arr2[6], count = 0;
-    for (int i = 0; i < 6; i++)
-    {
+
+int main(){
+
+int arr[10]={1,2,3,4,5,3,4,7,8,9},counter=0;
+for(int i = 0;i<10;i++){
         int j;
-        for (j = 0; j < 6; j++)
-        {
-            if (arr[i] == arr[j])
-            {
-                arr[i] = arr[j];
-                count++;
-                break;
-            }
-        }
-        if (i == j)
-        {
-            cout << arr[i] << " ";
+    for(j = 0;j<10;j++){
+        if(arr[i]==arr[j]){
+            arr[i]=arr[j];
+            counter++;
+            break;
         }
     }
-    /* cout << count << endl; */
-    if (count == 0)
-    {
-        cout << "array already unique" << endl;
+    if(i==j){
+        cout<<arr[i]<< " ";
     }
-    /* for (int i = 0; i < count; i++)
-    {
-        cout << arr[i] << " ";
-    } */
-    return 0;
+}
+if(counter=0){
+    cout<<"Ther array is already unique"<<endl;
+}
+
+return 0;
 }
