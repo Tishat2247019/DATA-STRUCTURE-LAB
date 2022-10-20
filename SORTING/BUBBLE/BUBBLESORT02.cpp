@@ -14,7 +14,6 @@ int main()
     {
         for (j = 0; j < 10 - i; j++)
         {
-            cout << i << " ";
             if (a[j] > a[j + 1])
             {
                 temp = a[j];
