@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int arr1[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int arr2[10] = {1, 2, 3, 10, 11, 12, 13, 14, 15, 16};
+    int arr2[10] = {20, 19, 18, 17, 11, 12, 13, 14, 15, 16};
     int arr3[10];
     int n1, n2;
     /* cout << "please enter the number of elements of the first array :";
