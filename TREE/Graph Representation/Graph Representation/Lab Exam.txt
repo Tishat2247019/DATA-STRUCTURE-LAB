@@ -1,0 +1,12 @@
+
+
+--> stack using array
+--> stack using List
+--> queue using array
+--> queue using List
+--> BST
+--> Linear Search
+--> Min heap
+--> Max heap
+--> Graph Representation using Adjacency Matrix
+--> Graph Representation using Adjacency List
