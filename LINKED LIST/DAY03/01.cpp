@@ -50,13 +50,13 @@ void display(Node *head)
 int main()
 {
     Node *head = NULL;
-    /* insertbegin(head, 1);
+    insertbegin(head, 1);
     insertbegin(head, 2);
     insertbegin(head, 3);
-    insertbegin(head, 4); */
-    insertend(head, 5);
-    insertend(head, 6);
-    insertend(head, 7);
+    insertbegin(head, 4);
+    // insertend(head, 5);
+    // insertend(head, 6);
+    // insertend(head, 7);
     display(head);
     return 0;
 }
